@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@font-face{
+	font-family:champagne;
+	src:url(../../study/Champagne%20&%20Limousines.ttf);
+}
+@font-face{
+	font-family: bentley;
+	src:url(../../study/Atlantic%20Bentley.ttf);
+}
+@font-face{
+	font-family:dopeStyle;
+	src:url(../study/Dopestyle.ttf);
+}
+
+
+body{
+	padding:0;
+	margin:0;
+	font-family:champagne;
+	font-size:22px;
+	font-weight:300;
+}
+
+.logo{
+	color:white;
+	margin-top: ;
+	text-align:center;
+}
+h1.logo{
+	color:white;
+}
+
+
+
+.round{
+	color:#FFF;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	margin-left:42%;
+	background-color:#F90;
+	background-image:url(img/cooker.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+}
+
+.nav-logo{
+	font-family:dopestyle;
+	margin-top:5px;
+	display:inline-block;
+	margin-left:10px;
+	font-size:24px;
+	float:left;
+	color:#FC0;
+}
+
+
+
+big{
+
+	font-family:bentley;
+	font-size:46px;
+	border-top:5px solid #F93;
+	border-bottom:5px solid #F93;
+	color:#000;
+	opacity:0.7;
+	margin-top:4%;
+	padding:5px;
+}
+
+.profile{
+	margin-top: 5%;
+	margin-bottom:0;
+	margin-left:45%;
+	width: 150px;
+	height:150px;
+	border-radius:50%;
+	background-image:url(img/user.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	border:1px solid black;
+}
+
+form{
+	margin: 0 auto;
+	width: 300px;
+}
+.admin-login{
+	width: 500px;
+	height:auto;
+	padding: 20px;
+	text-align:center;
+	margin-top: 5%;
+	margin-left:30%;
+	border:3px solid #CCC;
+
+}
+
+
+input{
+	width:100%;
+	padding:10px;
+}
+
+button{
+	width:108%;
+	padding:14px 25px;
+	color:white;
+	background-color: green;
+	opacity:0.7;
+	border:none;
+}
+
+button:hover{
+	color: white;
+	background-color:green;
+	opacity:0.5;
+}
+button:active{
+	color:white;
+	background-color:#000;
+}
+
+
+.nav-con{
+	width:100%;
+	height:auto;
+	text-align:center;
+	font-size:20px;
+	background-color:#6C3;
+}
+
+.nav-con a{
+	color:white;
+	text-decoration: none;
+	display:inline-block;
+	padding:10px 25px;
+	font-weight:bolder;
+	border:none;
+	transition:all ease-in .5s;
+}
+
+.nav-con a:hover{
+	color:#6C3;
+	background-color:#FFF;
+	border:none;
+	transition:all ease-in .5s;
+}
+
+.well{
+	font-size:20px;
+	font-weight:800;
+	text-align:center;
+}
+
+.container-ad{
+	width:100%;
+	height: 500px;
+	background-image:url(img/baker3.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.container-ad h1{
+	color:#003;
+	font-size:50px;
+	font-weight:bolder;
+	padding-top:20px;
+}
+
+.container-ad .img{
+	width: 100px;
+	height:100px;
+	border-radius:50%;
+	margin-top: 10px;
+}
+
+
+
+
+h1.services{
+	text-align:center;
+	color:#FFF;
+	font-weight:900;
+}
+
+.nav{
+	text-align:center;
+	margin-top: 10px;
+}
+
+.fa{
+	margin-top: 2%;
+	margin-right: 1px;
+	padding:10px 20px;
+	text-decoration:none;
+}
+
+.fa:hover{
+	opacity:0.7;
+}
+.fa-linkedin{
+	border:1px solid #06f;
+	color:#FFF;
+	background-color:#06F;
+}
+.fa-facebook{
+	border:1px solid #00c;
+	color:#FFF;
+	background-color:#00c;
+}
+.fa-twitter{
+	border:1px solid #09F;
+	color:#FFF;
+	background-color:#09F;
+}
+.fa-instagram{
+	border:1px solid #F3C;
+	color:#FFF;
+	background-color:#F3C;
+}
